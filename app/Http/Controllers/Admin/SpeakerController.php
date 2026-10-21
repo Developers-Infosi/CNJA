@@ -61,11 +61,11 @@ class SpeakerController extends Controller
         ]);
 
         // RESIZE DA IMAGEM E GUARDAR NO DISCO CONFIGURADO (s3/minio)
-        $img = Image::make($request->file('photo'))->resize(400, 400)->encode('jpg');
+        $file = $request->file('photo');
+        $img = Image::make($file)->resize(400, 400);
         $namefile = $this->random->AlphaNumeric(8) . '.jpg';
-        $path = 'speakers/' . $namefile;
-        Storage::put($path, (string) $img);
-        $file = $path;
+        $img->save('../storage/app/public/speakers/' . $namefile);
+        $file = 'speakers/' . $namefile;
 
         $speaker = Speaker::create([
             'name' => $request->name,
@@ -131,12 +131,11 @@ class SpeakerController extends Controller
             'status' => 'nullable|string|max:20',
         ]);
 
-        if ($request->file('photo')) {
-            $img = Image::make($request->file('photo'))->resize(400, 400)->encode('jpg');
+        if ($file = $request->file('photo')) {
+            $img = Image::make($file)->resize(400, 400);
             $namefile = $this->random->AlphaNumeric(8) . '.jpg';
-            $path = 'speakers/' . $namefile;
-            Storage::put($path, (string) $img);
-            $file = $path;
+            $img->save('../storage/app/public/speakers/' . $namefile);
+            $file = 'speakers/' . $namefile;
         } else {
             $file = Speaker::find($id)->photo;
         }

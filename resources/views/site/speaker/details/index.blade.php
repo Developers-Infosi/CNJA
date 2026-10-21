@@ -25,7 +25,7 @@
 
                         <div id="titleSector">
                             <div class="imgSector">
-                                <img src="{{ Storage::url($speaker->photo) }}" class="img-fluid" alt="{{ $speaker->name }}" />
+                                <img src="/storage/{{ $speaker->photo }}" class="img-fluid" alt="{{ $speaker->name }}" />
                             </div>
 
                             <div class="titleSpeaker">

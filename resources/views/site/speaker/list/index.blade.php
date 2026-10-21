@@ -14,8 +14,8 @@
                 @foreach ($speakers as $row)
                     <a href="{!! url("/speaker/".urlencode($row->name)) !!}" class="card-slide _3 w-inline-block">
                         <div class="participante speaker"><img sizes="(max-width: 667px) 100vw, 667px"
-                                srcset="{{ Storage::url($row->photo) }} 500w, {{ Storage::url($row->photo) }} 667w"
-                                alt="" src="{{ Storage::url($row->photo) }}" loading="lazy" class="foto-1 _3">
+                                srcset="/storage/{{ $row->photo }} 500w, /storage/{{ $row->photo }} 667w"
+                                alt="" src="/storage/{{ $row->photo }}" loading="lazy" class="foto-1 _3">
                         </div>
                         <div class="nome-speakers">{{ $row->name }}</div>
                         <div>
