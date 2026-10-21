@@ -58,8 +58,8 @@
 
                         <div class="text-block-78">LOCAL:</div>
 
-                        <div>
-                           <b>Palácio de Convenções de Luanda</b>
+                        <div id="event_place">
+                           <a href="https://www.google.com/maps/place/Centro+de+Confer%C3%AAncias+da+Ingombota/@-8.8149424,13.2116832,17z/data=!3m1!4b1!4m6!3m5!1s0x1a51f300215a66bf:0xd1d48ef9e7df9acc!8m2!3d-8.8149424!4d13.2116832!16s%2Fg%2F11mlgpt39n!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Palácio de Convenções de Luanda</a>
                         </div>
 
                     </div>

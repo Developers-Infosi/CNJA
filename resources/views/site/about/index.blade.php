@@ -21,7 +21,7 @@
         <div class="contain">
 
             <div class="div-block-231">
-                <div class="div-block-230">
+                <div class="div-block-230" style="text-align: justify;">
 
                     <div class="div-block-228">
                         <div>
