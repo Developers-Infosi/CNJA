@@ -5,9 +5,12 @@
 <head>
     <title>@yield('titulo') - Conferência Nacional da Juventude Angolana </title>
     <meta charset="UTF-8" />
+    {{-- Protecção contra clickJacking --}}
+    {!! header('X-Frame-Options: SAMEORIGIN') !!}
 
     {{-- CSRF Token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
 
 
 
