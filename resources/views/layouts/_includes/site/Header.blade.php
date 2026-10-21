@@ -6,11 +6,9 @@
     <title>@yield('titulo') - Conferência Nacional da Juventude Angolana </title>
     <meta charset="UTF-8" />
 
-
     {{-- CSRF Token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     {!! RecaptchaV3::initJs() !!}
-
 
 
     <meta content="Conferência Nacional da Juventude Angolana " name="description">
