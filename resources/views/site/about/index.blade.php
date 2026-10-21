@@ -67,7 +67,7 @@
                     </div>
                     <div class="div-block-228">
 
-                        <div>
+                        <div class="mb-3">
                            O nosso país tem todos os pressupostos necessários à concretização desta agenda, bastando para tal que juntemos os
                            esforços e sinergias que concorram para o rápido alcance destes objectivos, que passam necessariamente pelo foco
                            especial na capacitação e orientação da nossa juventude, principal activo para alavancar o processo de desenvolvimento,
@@ -80,7 +80,7 @@
                     <div class="div-block-228">
 
                         <div>
-                             <h3>Objectivos da Conferência Nacional da Juventude</h3>
+                             <h3>Objectivos da Conferência Nacional da Juventude</h3> <br/>
                            A <b>Conferência Nacional da Juventude Angolana (CNJA)</b> propõe-se a se constituir num espaço de diálogo,
                            reflexão, partilha e análise das questões estruturantes e de actualidade dos nossos jovens, na busca
                            de melhores caminhos a seguir, construindo pontes que dinamizem uma mais activa participação da juventude
