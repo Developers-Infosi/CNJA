@@ -1810,7 +1810,7 @@ p {
 }
 
 .div-block-15 {
-  background-image: url('../img/logo/cnja_logo.png');
+  background-image: url('../img/logo/cnja_white_logo.png');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2087,7 +2087,7 @@ p {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(100deg, rgba(5, 22, 84, .96) 0%, rgba(5, 22, 84, .88) 50%, rgba(5, 22, 84, .6) 100%);
+  background: linear-gradient(100deg, rgba(5,22,84,.80) 0%, rgba(5,22,84,.70) 50%, rgba(5,22,84,.50) 100%);
 }
 
 
@@ -5128,7 +5128,7 @@ p {
   color: #FFF;
   text-align: center;
   text-transform: uppercase;
-  background-color: #FFC400;
+  background-color: #1B1E27;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -6904,7 +6904,7 @@ p {
 
 .tab-programa {
   color: #fff;
-  background-color: #FFC400;
+  background-color: #1B1E27;
   border-radius: 5px;
   flex-flow: column;
   flex: none;
@@ -6922,7 +6922,7 @@ p {
 }
 
 .tab-programa.w--current {
-  background-color: #0A3FE0;
+  background-color: #0A3FE0;;
   color: #fff;
   flex-flow: column;
   justify-content: center;

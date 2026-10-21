@@ -4,7 +4,7 @@
 
     <section class="main">
         <div class="background-video w-background-video w-background-video-atom"
-            style="background:  linear-gradient(100deg, rgba(5,22,84,.96) 0%, rgba(5,22,84,.88) 50%, rgba(5,22,84,.6) 100%), url(/site/img/banner/palacio.jpg); background-size:cover; background-position:center; background-repeat:no-repeat; background:
+            style="background:  linear-gradient(100deg, rgba(5,22,84,.80) 0%, rgba(5,22,84,.70) 50%, rgba(5,22,84,.50) 100%), url(/site/img/banner/palacio.jpg); background-size:cover; background-position:center; background-repeat:no-repeat; background:
         ">
             <div class="div-block-293">
                 <div class="contain">
