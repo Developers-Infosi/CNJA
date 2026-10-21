@@ -1004,7 +1004,7 @@ p {
 }
 
 .the-brand {
-  background-image: url('../img/logo/logo_governo.png');
+  background-image: url('../img/logo/cnja_logo.png');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1013,7 +1013,7 @@ p {
 }
 
 .the-brand.w--current {
-  background-image: url('../img/logo/logo_governo.png');
+  background-image: url('../img/logo/cnja_logo.png');
   background-position: 50%;
   background-size: contain;
   width: 50%;
