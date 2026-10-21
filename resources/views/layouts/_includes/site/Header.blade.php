@@ -8,7 +8,7 @@
 
     {{-- CSRF Token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    {!! RecaptchaV3::initJs() !!}
+
 
 
     <meta content="Conferência Nacional da Juventude Angolana " name="description">
