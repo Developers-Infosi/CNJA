@@ -15,8 +15,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="/site/img/logo/favicon-50x.png" rel="shortcut icon" type="image/x-icon">
-    <link href="/site/img/logo/icon.png" rel="apple-touch-icon">
+
+    <link rel="icon" type="image/png" href="/site/img/logo/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/site/img/logo/favicon.svg" />
+    <link rel="shortcut icon" href="/site/img/logo/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/site/img/logo/apple-touch-icon.png" />
+    <link rel="manifest" href="/site/img/logo/site.webmanifest" />
     <title>@yield('titulo')</title>
     <!-- Simple bar CSS -->
 

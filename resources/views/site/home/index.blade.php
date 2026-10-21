@@ -4,7 +4,8 @@
 
     <section class="main">
         <div class="background-video w-background-video w-background-video-atom"
-            style="background-image:url(/site/img/banner/bg-luanda.png); background-size:cover; background-position:center; background-repeat:no-repeat;">
+            style="background:  linear-gradient(100deg, rgba(5,22,84,.96) 0%, rgba(5,22,84,.88) 50%, rgba(5,22,84,.6) 100%), url(/site/img/banner/palacio.jpg); background-size:cover; background-position:center; background-repeat:no-repeat; background:
+        ">
             <div class="div-block-293">
                 <div class="contain">
                     <div class="div-block-182-copy">
@@ -33,69 +34,15 @@
             </div>
         </div>
     </section>
-    <section class="marque-section number">
-        <div class="marque-wrapper">
-            <div class="div-block-149">
-                <div class="div-block-130">
-                    <div class="text-block-15">Chefes de Estado e de Governo em exercício e anteriores</div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-15">Líderes políticos e representantes governamentais de alto nível</div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-15">Líderes religiosos e representantes de confissões de fé</div>
-                </div>
 
-                 <div class="div-block-130">
-                    <div class="text-block-15">
-                        Jovens defensores da paz e líderes da causa jovem
-                    </div>
-                </div>
-                 <div class="div-block-130">
-                    <div class="text-block-15">
-                       Mulheres mediadoras e líderes femininas
-                    </div>
-                </div>
-            </div>
-            <div class="div-block-149 _1">
-                 <div class="div-block-130">
-                    <div class="text-block-15">
-                        Organizações da sociedade civil
-                    </div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-15">
-                        Académicos e investigadores em resolução de conflitos
-                    </div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-15">Representantes de nações que alcançaram a paz após períodos de conflito
-                        armado</div>
-                </div>
-
-                <div class="div-block-130">
-                    <div class="text-block-15">Comunidades afectadas por conflitos e deslocamento forçado</div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-15">Meios de comunicação social e formadores de opinião na agenda global pela paz
-                    </div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-15">Actores não estatais e redes de diplomacia track II e track III</div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="section-12">
         <div class="contain">
             <div class="div-block-184">
                 <div class="div-block-236 t">
-                    <h1 class="heading-13 h">SOBRE O REFORÇO DOS MECANISMOS DE PREVENÇÃO E RESOLUÇÃO DOS CONFLITOS EM ÁFRICA</h1>
-                    <p class="paragraph-12 _1">Luanda se destaca como capital nacional, moldada tanto por sua história
-                        quanto por seu compromisso de longa data com a construção e a manutenção da paz. Como centro
-                        político e institucional de Angola, a cidade reflete uma trajetória nacional mais ampla, da
-                        instabilidade do passado à consolidação, resiliência e engajamento constante nos níveis nacional,
-                        regional e internacional.</p>
+                    <h1 class="heading-13 h">SOBRE O LEMA, JUVENTUDE ANGOLANA: INOVAR, TRANSFORMAR E DESENVOLVER ANGOLA</h1>
+                    <p class="paragraph-12 _1">A juventude constitui um pilar fundamental para o desenvolvimento de Angola. Neste contexto,
+                        a Conferência Nacional da Juventude Angolana promove a reflexão e o diálogo sobre os desafios e as oportunidades
+                        dos jovens, incentivando a inovação, a participação activa e o seu contributo para a transformação e o desenvolvimento sustentável do País.</p>
 
                 </div>
                 <div class="div-block-238"></div>
