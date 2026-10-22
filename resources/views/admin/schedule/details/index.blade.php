@@ -77,21 +77,7 @@
                                         </div>
                                     @endif
 
-                                    @if($schedule->logo)
 
-                                      <div class="col-md-12 mb-2">
-                                        <h5 class="mb-1">
-                                            <b class="text-primary">Logo:</b>
-
-                                            <div>
-                                                <img style="max-width: 10%;" class="img-fluid my-3" src="{{ Storage::url($schedule->logo) }}" />
-                                            </div>
-                                        </h5>
-
-                                    </div>
-
-
-                                    @endif
 
 
 

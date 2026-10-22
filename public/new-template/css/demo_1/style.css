@@ -376,6 +376,13 @@
     display: flex;
     margin-top: 0.5rem; } }
 
+
+
+
+    .navbar.default-layout .navbar-brand-wrapper .brand-logo {
+      width: 120px; }
+
+
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 63px);

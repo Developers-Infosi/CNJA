@@ -32,8 +32,30 @@
                 </a>
             </li>
 
+            {{--
+            @if ('Administrador' == Auth::user()->level || 'Visualizador' == Auth::user()->level)
+                <li class="nav-item nav-category">Inscrições</li>
+                <li class="nav-item mb-3">
+                    <a class="nav-link" href="{{ route('admin.participant.index') }}">
+                        <i class="menu-icon typcn typcn-document-text"></i>
+                        <span class="menu-title">Participantes</span>
+                    </a>
+                </li>
+            @endif
+
+            @if ('COPS' == Auth::user()->level || 'Administrador' == Auth::user()->level)
+                <li class="nav-item nav-category mt-3">Central de Impressão</li>
+                <li class="nav-item mb-3">
+                    <a class="nav-link" href="{{ route('admin.ticket.index') }}">
+                        <i class="menu-icon typcn typcn-document-text"></i>
+                        <span class="menu-title">Tickets</span>
+                    </a>
+                </li>
+            @endif
+             --}}
             @if ('Administrador' == Auth::user()->level)
-                <li class="nav-item nav-category">Informações Públicas</li>
+
+                  <li class="nav-item nav-category">Informações Públicas</li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('admin.speaker.index') }}">
                         <i class="menu-icon typcn typcn-document-text"></i>
@@ -49,12 +71,23 @@
                 </li>
 
 
+                {{--
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('admin.gallery.index') }}">
+                        <i class="menu-icon typcn typcn-document-text"></i>
+                        <span class="menu-title">Galeria</span>
+                    </a>
+                </li>
+            --}}
+
 
                 {{-- Menu Users --}}
                 <li class="nav-item nav-category mt-2">Utilizadores</li>
                 <li class="nav-item mb-4">
                     <a class="nav-link" href="{{ route('admin.user.index') }}">
                         <i class="menu-icon typcn typcn-document-text"></i>
+
                         <span class="menu-title">Utilizadores </span>
                     </a>
                 </li>

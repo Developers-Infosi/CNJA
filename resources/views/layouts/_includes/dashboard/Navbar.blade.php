@@ -1,25 +1,25 @@
 <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-
-
-    <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+    <div id="logo_container" class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center ">
         <a class="navbar-brand brand-logo" href="{{ route('admin.home') }}">
-            <img src="/site/img/logo/cnja_logo.png" alt="logo" />
-        </a>
+            <img  src="/site/img/logo/cnja_white_logo.png" width="30%" alt="logo" /> </a>
+        <a class="navbar-brand brand-logo-mini" href="{{ route('admin.home') }}">
+            <img src="/site/img/logo/cnja_white_logo.png"  alt="logo" /> </a>
 
     </div>
+
     <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav">
 
 
         </ul>
 
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto ">
 
             <li class="nav-item dropdown d-none d-xl-inline-block user-dropdown">
                 <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown"
                     aria-expanded="false">
-                    <img class="img-xs rounded-circle" src="/site/img/icons/user.png" alt="{{ Auth::User()->name }}">
-                </a>
+                    <img class="img-xs rounded-circle" src="/site/img/icons/user.png"
+                        alt="{{ Auth::User()->name }}"> </a>
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                     <div class="dropdown-header text-center">
                         <img class="img-md rounded-circle" src="/site/img/icons/user.png"

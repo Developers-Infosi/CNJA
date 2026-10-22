@@ -15,13 +15,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-
-    <link rel="icon" type="image/png" href="/site/img/logo/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="/site/img/logo/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/site/img/logo/favicon.svg" />
     <link rel="shortcut icon" href="/site/img/logo/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/site/img/logo/apple-touch-icon.png" />
     <link rel="manifest" href="/site/img/logo/site.webmanifest" />
-    <title>@yield('titulo')</title>
+
+    <title>@yield('titulo') - Conferência Nacional da Juventude Angolana</title>
     <!-- Simple bar CSS -->
 
 
@@ -29,32 +29,32 @@
 
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
     <!-- Icons CSS -->
 
 
-    <!-- plugins:css -->
-    <link rel="stylesheet" href="/new-template/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="/new-template/vendors/iconfonts/ionicons/dist/css/ionicons.css">
-    <link rel="stylesheet" href="/new-template/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="/new-template/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="/new-template/vendors/css/vendor.bundle.addons.css">
-    <!-- endinject -->
+     <!-- plugins:css -->
+     <link rel="stylesheet" href="/new-template/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+     <link rel="stylesheet" href="/new-template/vendors/iconfonts/ionicons/dist/css/ionicons.css">
+     <link rel="stylesheet" href="/new-template/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
+     <link rel="stylesheet" href="/new-template/vendors/css/vendor.bundle.base.css">
+     <link rel="stylesheet" href="/new-template/vendors/css/vendor.bundle.addons.css">
+     <!-- endinject -->
 
-    <link rel="stylesheet" href="/new-template/vendors/iconfonts/font-awesome/css/font-awesome.min.css" />
-    <!-- plugin css for this page -->
-    <link rel="stylesheet" href="/new-template/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-    <link rel="stylesheet" href="/new-template/vendors/datatables.net-fixedcolumns-bs4/fixedColumns.bootstrap4.min.css">
-    <!-- End plugin css for this page -->
+     <link rel="stylesheet" href="/new-template/vendors/iconfonts/font-awesome/css/font-awesome.min.css" />
+     <!-- plugin css for this page -->
+     <link rel="stylesheet" href="/new-template/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+     <link rel="stylesheet" href="/new-template/vendors/datatables.net-fixedcolumns-bs4/fixedColumns.bootstrap4.min.css">
+     <!-- End plugin css for this page -->
 
-    <!-- inject:css -->
-    <link rel="stylesheet" href="/new-template/css/shared/style.css">
-    <!-- endinject -->
+     <!-- inject:css -->
+     <link rel="stylesheet" href="/new-template/css/shared/style.css">
+     <!-- endinject -->
 
-    <!-- Layout styles -->
-    <link rel="stylesheet" href="/new-template/css/demo_1/style.css">
-    <!-- End Layout styles -->
+     <!-- Layout styles -->
+     <link rel="stylesheet" href="/new-template/css/demo_1/style.css">
+     <!-- End Layout styles -->
 
     {{-- sweetalert --}}
     <link rel="stylesheet" href="/css/sweetalert2.css">
@@ -65,34 +65,6 @@
     <script src="/ckeditor/ckeditor.js"></script>
 
 
-    <style>
-        .navbar.default-layout .navbar-brand-wrapper {
-            height: 100px;
-            /* mesma altura da navbar */
-            overflow: hidden;
-        }
-
-        .navbar.default-layout .navbar-brand-wrapper .navbar-brand {
-            display: flex;
-            align-items: center;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-        }
-
-        .navbar.default-layout .navbar-brand-wrapper .navbar-brand img {
-            width: auto;
-            height: auto;
-            max-width: 100%;
-            max-height: 100px;
-            /* ajusta: 45–55px costuma ficar bem */
-            object-fit: contain;
-        }
-
-        .navbar.default-layout .navbar-brand-wrapper .navbar-brand.brand-logo-mini img {
-            max-height: 62px;
-        }
-    </style>
 
 </head>
 
